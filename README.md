@@ -8,6 +8,10 @@
 
 [Live](https://poke-card-elie.netlify.app/)
 
+
+## Loom Video
+[loom](https://www.loom.com/share/734330f780f44756951e26663c26c5c1)
+
 ## Built with
 
 - React
