@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const url = `https://api.pokemontcg.io/v2/cards/`;
+const url = 'https://api.pokemontcg.io/v2/cards/';
 
 const initialState = {
   pokemons: [],
