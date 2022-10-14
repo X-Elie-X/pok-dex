@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: GillSans;
+  src: url(font/Gill-Sans-Font-Family/GillSans\ Condensed\ Bold.otf);
+}
+
+* {
+  background-color: #4369b2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-right: -80px;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 50%;
+}
+
+.homeLink {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.imgList {
+  margin-top: 10px;
+  width: 170px;
+  height: 200px;
+}
+
+.pokeContainer {
+  width: 170px;
+  height: 310px;
+  margin-top: 20px;
+}
+
+.namelist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.pokenamelist {
+  font-family: GillSans, sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.listContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.go {
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.pokename {
+  color: #fff;
+  font-family: GillSans, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pokeimg {
+  margin-left: 55px;
+}
+
+.pokelist {
+  list-style-type: none;
+  width: 300px;
+  margin-left: -10px;
+}
+
+.pokelist li {
+  border: 1px solid #fff;
+  width: 300px;
+  color: #fff;
+  font-family: GillSans, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.loading {
+  margin-left: 120px;
+  margin-top: 200px;
+}
