@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[Live]()
+[Live](https://poke-card-elie.netlify.app/)
 
 ## Built with
 
